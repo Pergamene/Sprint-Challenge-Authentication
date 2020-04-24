@@ -7,7 +7,6 @@ const secrets = require('./secrets');
 
 router.post('/register', async (req, res) => {
   let user = req.body;
-
   const rounds = process.env.HASH_ROUNDS || 14;
   const hash = bcrypt.hashSync(user.password, rounds);
   user.password = hash;
