@@ -40,11 +40,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 - [ ] What is the purpose of using _sessions_?
 
+> A session is used to persist user data while moving between pages of an application
+
 - [ ] What does bcrypt do to help us store passwords in a secure manner.
+
+> It hashes the password
 
 - [ ] What does bcrypt do to slow down attackers?
 
+> It hashes the password multiple times
+
 - [ ] What are the three parts of the JSON Web Token?
+
+> header, payload, signature
 
 ## Minimum Viable Product
 
